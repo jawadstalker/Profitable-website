@@ -85,7 +85,7 @@ const Projects: React.FC = () => {
             >
               <div className="relative overflow-hidden h-48">
                 <img
-                  src={Screenshot (9).png}
+                  src={"Screenshot (9).png"}
                   alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 />
