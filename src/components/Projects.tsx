@@ -7,7 +7,7 @@ const Projects: React.FC = () => {
     {
       title: 'AI-Powered Dashboard',
       description: 'A modern analytics dashboard with AI-driven insights and real-time data visualization.',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop',
+      image: 'hScreenshot (9).png',
       tags: ['React', 'TypeScript', 'AI', 'Charts'],
       github: 'https://github.com/jawadstalker',
       demo: '#',
@@ -85,7 +85,7 @@ const Projects: React.FC = () => {
             >
               <div className="relative overflow-hidden h-48">
                 <img
-                  src={"Screenshot (9).png"}
+                  src={project.image}
                   alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 />
