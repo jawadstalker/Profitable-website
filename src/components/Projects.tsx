@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
     {
       title: 'E-Commerce Platform',
       description: 'Full-featured online shopping platform with cart management and payment integration.',
-      image: 'https://www.artstation.com/artwork/XJobZL',
+      image: 'https://erebus-art.com/wp-content/uploads/2024/11/giorgio-de-michele-erebus-exploration-scene1-final-midres.jpg',
       tags: ['React', 'Next.js', 'Tailwind', 'Stripe'],
       github: 'https://github.com/jawadstalker',
       demo: '#',
@@ -24,7 +24,7 @@ const Projects: React.FC = () => {
     {
       title: 'Portfolio CMS',
       description: 'Content management system for creative professionals to showcase their work.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeXxlbnwwfHwwfHx8MA%3D%3D',
       tags: ['React', 'TypeScript', 'CMS', 'API'],
       github: 'https://github.com/jawadstalker',
       demo: '#',
