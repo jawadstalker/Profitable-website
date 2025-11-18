@@ -7,7 +7,7 @@ const Projects: React.FC = () => {
     {
       title: 'AI-Powered Dashboard',
       description: 'A modern analytics dashboard with AI-driven insights and real-time data visualization.',
-      image: 'hScreenshot (9).png',
+      image: 'Screenshot (9).png',
       tags: ['React', 'TypeScript', 'AI', 'Charts'],
       github: 'https://github.com/jawadstalker',
       demo: '#',
