@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { BookOpen, Cpu, Dribbble, Award, Gamepad2, Brain } from 'lucide-react';
 
+
+
 const Interests: React.FC = () => {
   const interests = [
     {
