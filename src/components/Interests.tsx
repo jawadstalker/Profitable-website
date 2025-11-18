@@ -1,11 +1,23 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BookOpen, Cpu, Dribbble, Award } from 'lucide-react';
+import {BookOpen, Cpu, Dribbble, Award, gamepad-2, ice-cream-cone, library-big } from 'lucide-react';
 
 const Interests: React.FC = () => {
   const interests = [
     {
       icon: BookOpen,
+      title: 'Fantasy Writing',
+      description: 'Crafting epic tales and building immersive fantasy worlds. Currently working on a novel series about magical realms and ancient prophecies.',
+      color: 'from-purple-500 to-pink-600',
+    },
+    {
+      icon: gamepad-2,
+      title: 'Fantasy Writing',
+      description: 'Crafting epic tales and building immersive fantasy worlds. Currently working on a novel series about magical realms and ancient prophecies.',
+      color: 'from-purple-500 to-pink-600',
+    },
+    {
+      icon: ice-cream-cone,
       title: 'Fantasy Writing',
       description: 'Crafting epic tales and building immersive fantasy worlds. Currently working on a novel series about magical realms and ancient prophecies.',
       color: 'from-purple-500 to-pink-600',
