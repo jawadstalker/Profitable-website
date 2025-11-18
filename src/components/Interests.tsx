@@ -2,8 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { BookOpen, Cpu, Dribbble, Award, Gamepad2, Brain } from 'lucide-react';
 
-
-
 const Interests: React.FC = () => {
   const interests = [
     {
@@ -79,4 +77,27 @@ const Interests: React.FC = () => {
                 <interest.icon className="w-8 h-8 text-white" />
               </div>
 
-              <h3 className="text-2xl font-bold mb-3
+              <h3 className="text-2xl font-bold mb-3">{interest.title}</h3>
+              <p className="text-gray-400 leading-relaxed">{interest.description}</p>
+            </motion.div>
+          ))}
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          className="mt-12 p-8 bg-gradient-to-br from-primary-900/20 to-purple-900/20 rounded-2xl border border-primary-500/30 text-center"
+        >
+          <p className="text-gray-300 text-lg leading-relaxed max-w-3xl mx-auto">
+            These interests fuel my creativity and problem-solving skills. Whether coding in React, 
+            exploring AI models, crafting fantasy stories, or playing sports, each activity teaches me valuable lessons in perseverance, teamwork, and innovation.
+          </p>
+        </motion.div>
+      </div>
+    </section>
+  );
+};
+
+export default Interests;
