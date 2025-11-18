@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
     {
       title: 'E-Commerce Platform',
       description: 'Full-featured online shopping platform with cart management and payment integration.',
-      image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop',
+      image: 'https://www.artstation.com/artwork/XJobZL',
       tags: ['React', 'Next.js', 'Tailwind', 'Stripe'],
       github: 'https://github.com/jawadstalker',
       demo: '#',
