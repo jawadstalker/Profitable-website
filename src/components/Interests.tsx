@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import {BookOpen, Cpu, Dribbble, Award, gamepad-2, ice-cream-cone, library-big } from 'lucide-react';
+import { BookOpen, Cpu, Dribbble, Award, Gamepad2, IceCream, Library } from 'lucide-react';
 
 const Interests: React.FC = () => {
   const interests = [
@@ -11,15 +11,15 @@ const Interests: React.FC = () => {
       color: 'from-purple-500 to-pink-600',
     },
     {
-      icon: gamepad-2,
-      title: 'Fantasy Writing',
-      description: 'Crafting epic tales and building immersive fantasy worlds. Currently working on a novel series about magical realms and ancient prophecies.',
+      icon: Gamepad2,
+      title: 'Gaming',
+      description: 'Enjoying immersive games and strategy-based adventures. Gaming inspires creativity and problem-solving skills.',
       color: 'from-purple-500 to-pink-600',
     },
     {
-      icon: ice-cream-cone,
-      title: 'Fantasy Writing',
-      description: 'Crafting epic tales and building immersive fantasy worlds. Currently working on a novel series about magical realms and ancient prophecies.',
+      icon: IceCream,
+      title: 'Foodie',
+      description: 'Exploring new cuisines and trying out creative recipes. Cooking and tasting food fuels my creativity.',
       color: 'from-purple-500 to-pink-600',
     },
     {
