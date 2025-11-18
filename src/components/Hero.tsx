@@ -1,12 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, ChevronDown } from 'lucide-react';
+import { Github, Linkedin, Mail, ChevronDown, MessageCircle, PenTool, Globe  } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const socialLinks = [
     { icon: Github, href: 'https://github.com/jawadstalker', label: 'GitHub' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/jawad-vafaee-586a19363/', label: 'LinkedIn' },
     { icon: Mail, href: 'mailto:jawadvamps@gmail.com', label: 'Email' },
+    { icon: MessageCircle, href: 'https://t.me/YOUR_USERNAME', label: 'Telegram' },
+  { icon: PenTool, href: 'https://medium.com/@YOUR_MEDIUM_NAME', label: 'Medium' },
+  { icon: Globe, href: 'https://YOUR_WORDPRESS_SITE.wordpress.com', label: 'WordPress' }  
   ];
 
   return (

@@ -7,20 +7,20 @@ const Skills: React.FC = () => {
       category: 'Frontend Development',
       skills: [
         { name: 'React.js', level: 95 },
-        { name: 'TypeScript', level: 90 },
-        { name: 'JavaScript', level: 95 },
+        { name: 'TypeScript', level: 80 },
+        { name: 'JavaScript', level: 60 },
         { name: 'HTML/CSS', level: 98 },
         { name: 'Tailwind CSS', level: 92 },
-        { name: 'Next.js', level: 85 },
+        { name: 'Next.js', level: 10 },
       ],
     },
     {
       category: 'AI & Machine Learning',
       skills: [
-        { name: 'Machine Learning Basics', level: 75 },
+        { name: 'Machine Learning Basics', level: 20 },
         { name: 'OpenAI API', level: 80 },
-        { name: 'Natural Language Processing', level: 70 },
-        { name: 'TensorFlow.js', level: 65 },
+        { name: 'Natural Language Processing', level: 50 }
+       
       ],
     },
     {
