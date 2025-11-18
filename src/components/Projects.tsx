@@ -7,11 +7,12 @@ const Projects: React.FC = () => {
     {
       title: 'AI-Powered Dashboard',
       description: 'A modern analytics dashboard with AI-driven insights and real-time data visualization.',
-      image: 'hScreenshot (9).png',
+      image: '/Screenshot (9).png',   // ← حتماً با / شروع شود
       tags: ['React', 'TypeScript', 'AI', 'Charts'],
       github: 'https://github.com/jawadstalker',
       demo: '#',
     },
+    
     {
       title: 'E-Commerce Platform',
       description: 'Full-featured online shopping platform with cart management and payment integration.',
